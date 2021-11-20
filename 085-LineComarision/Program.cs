@@ -6,7 +6,7 @@ namespace _085_LineComarision
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("welcome to line comarision problem");
         }
     }
 }
