@@ -32,7 +32,13 @@ namespace _085_LineComarision
 
             Console.WriteLine("Length of line one is " + "  " + legth2);
 
-            Console.WriteLine(legth1.Equals(legth2));
+            int status = legth1.CompareTo(legth2);
+            if (status > 0)
+                Console.WriteLine("line1 is greater than line2");
+            else if (status < 0)
+                Console.WriteLine("line1 is less than line2");
+            else
+                Console.WriteLine("line1 is equal to line2");
         }
     }
 }
